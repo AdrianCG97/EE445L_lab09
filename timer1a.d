@@ -1,0 +1,9 @@
+.\timer1a.o: Timer1A.c
+.\timer1a.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\timer1a.o: ../inc/tm4c123gh6pm.h
+.\timer1a.o: Dac.h
+.\timer1a.o: ../inc/CortexM.h
+.\timer1a.o: Music1.h
+.\timer1a.o: ../inc/CortexM.h
+.\timer1a.o: SysTick.h
+.\timer1a.o: ../inc/CortexM.h

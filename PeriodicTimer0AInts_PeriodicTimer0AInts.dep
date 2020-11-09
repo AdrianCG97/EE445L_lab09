@@ -1,0 +1,70 @@
+Dependencies for Project 'PeriodicTimer0AInts', Target 'PeriodicTimer0AInts': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\startup.s)(0x5F554E42)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PeriodicTimer0AInts.c)(0x5FA76C36)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\periodictimer0aints.o --omf_browse .\periodictimer0aints.crf --depend .\periodictimer0aints.d)
+I (../inc/tm4c123gh6pm.h)(0x5F554E2A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (../inc/PLL.h)(0x5F554E28)
+I (../inc/Timer0A.h)(0x5F554E2A)
+I (../inc/CortexM.h)(0x5F554E24)
+I (../inc/LaunchPad.h)(0x5F554E27)
+I (DAC.h)(0x5F7C44F5)
+I (Switch.h)(0x5F758004)
+I (ST7735.h)(0x5F569E46)
+I (Music1.h)(0x5F7C5BC6)
+I (SysTick.h)(0x5F7C20E5)
+I (Timer1A.h)(0x5F7C2228)
+I (ADCT0ATrigger.h)(0x5F554E23)
+F (..\inc\PLL.c)(0x5F554E28)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (..\inc\../inc/PLL.h)(0x5F554E28)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x5F554E2A)
+F (..\inc\LaunchPad.c)(0x5F554E27)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\launchpad.o --omf_browse .\launchpad.crf --depend .\launchpad.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (..\inc\../inc/LaunchPad.h)(0x5F554E27)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x5F554E2A)
+I (..\inc\../inc/CortexM.h)(0x5F554E24)
+F (.\DAC.h)(0x5F7C44F5)()
+F (.\ST7735.c)(0x5F57CABF)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC83ADC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC83ADC)
+I (ST7735.h)(0x5F569E46)
+I (../inc/tm4c123gh6pm.h)(0x5F554E2A)
+F (.\ST7735.h)(0x5F569E46)()
+F (.\Music.h)(0x5F757F5E)()
+F (.\DAC.c)(0x5F7E0795)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (../inc/tm4c123gh6pm.h)(0x5F554E2A)
+I (../inc/CortexM.h)(0x5F554E24)
+F (.\Timer1A.c)(0x5F7C5B62)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\timer1a.o --omf_browse .\timer1a.crf --depend .\timer1a.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (../inc/tm4c123gh6pm.h)(0x5F554E2A)
+I (Dac.h)(0x5F7C44F5)
+I (../inc/CortexM.h)(0x5F554E24)
+I (Music1.h)(0x5F7C5BC6)
+I (SysTick.h)(0x5F7C20E5)
+F (.\Timer1A.h)(0x5F7C2228)()
+F (.\Music1.c)(0x5FA76C16)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\music1.o --omf_browse .\music1.crf --depend .\music1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (..\inc/tm4c123gh6pm.h)(0x5F554E2A)
+I (Timer1A.h)(0x5F7C2228)
+I (../inc/CortexM.h)(0x5F554E24)
+I (Dac.h)(0x5F7C44F5)
+F (.\Music1.h)(0x5F7C5BC6)()
+F (.\SysTick.c)(0x5F7C2139)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (../inc/tm4c123gh6pm.h)(0x5F554E2A)
+I (../inc/CortexM.h)(0x5F554E24)
+I (SysTick.h)(0x5F7C20E5)
+F (.\SysTick.h)(0x5F7C20E5)()
+F (.\ADCT0ATrigger.c)(0x5FA429D7)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\adct0atrigger.o --omf_browse .\adct0atrigger.crf --depend .\adct0atrigger.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (../inc/CortexM.h)(0x5F554E24)
+I (../inc/tm4c123gh6pm.h)(0x5F554E2A)
+F (.\ADCT0ATrigger.h)(0x5F554E23)()
+F (.\DSP.h)(0x5FA43FB2)()
+F (.\DSP.c)(0x5FA43FB2)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PeriodicTimer0AInts-IC:\Users\emili\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\emili\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\dsp.o --omf_browse .\dsp.crf --depend .\dsp.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (../inc/tm4c123gh6pm.h)(0x5F554E2A)
+I (../inc/CortexM.h)(0x5F554E24)
